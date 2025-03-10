@@ -1,0 +1,10 @@
+name = "vlogtsx"
+type = "javascript"
+
+account_id = "aae9053cb2d7da327a2cd6aabf37e165"
+workers_dev = true
+
+[build]
+command = "npm run build"
+upload.format = "modules"
+upload.main = "./src/app/login/page.js"  # Updated path
